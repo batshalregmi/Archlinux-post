@@ -30,6 +30,7 @@ PKGS=(
     'libreoffice-fresh'
     'neofetch'
     'reflector'
+    'pacman-contrib'
 )
 
 sudo systemctl enable --now cups.service
