@@ -1,5 +1,5 @@
 mkdir ~/.config
-git clone git clone https://github.com/thevinter/styli.sh ~/.config/styli.sh
+git clone https://github.com/thevinter/styli.sh ~/.config/styli.sh
 sudo chmod +x ~/.config/styli.sh/styli.sh
 
 
