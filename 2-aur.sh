@@ -7,7 +7,7 @@ mkdir ~/.build/
 echo "Setting up paru"
 git clone https://aur.archlinux.org/paru.git ~/.build/paru
 cd ~/.build/paru
-makepkg -si
+makepkg -si --noconfirm
 
 
 
