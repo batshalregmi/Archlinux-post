@@ -25,6 +25,8 @@ PKGS=(
         'unzip'
         'firefox'
         'feh'
+        'libsecret'
+        'gnome-keyring'
         'libreoffice-fresh'
 )
 
