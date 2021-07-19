@@ -3,7 +3,7 @@ git clone https://github.com/thevinter/styli.sh ~/.config/styli.sh
 sudo chmod +x ~/.config/styli.sh/styli.sh
 
 
-sudo crontab -l > mycron
+crontab -l > mycron
 echo "@hourly ~/.config/styli.sh"
 crontab mycron
 rm mycron
