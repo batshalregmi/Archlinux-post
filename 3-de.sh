@@ -11,7 +11,7 @@ PKGS=(
     'cinnamon'
 )
 
-echo "exec cinnamon-session" >>~/.xinitrc
+echo "exec cinnamon-session" >> ~/.xinitrc
 
 for PKG in "${PKGS[@]}"; do
     echo "INSTALLING: ${PKG}"
