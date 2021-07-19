@@ -1,7 +1,6 @@
 mkdir ~/.config
 git clone git clone https://github.com/thevinter/styli.sh ~/.config/styli.sh
-cd ~/.config/styli.sh
-sudo chmod +x styli.sh
+sudo chmod +x ~/.config/styli.sh/styli.sh
 
 
 sudo crontab -l > mycron
