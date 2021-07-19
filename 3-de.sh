@@ -4,7 +4,7 @@ sudo chmod +x ~/.config/styli.sh/styli.sh
 
 
 crontab -l > mycron
-echo "@hourly ~/.config/styli.sh" >> mycron
+echo "@hourly ~/.config/styli.sh/styli.sh" >> mycron
 crontab mycron
 rm mycron
 
