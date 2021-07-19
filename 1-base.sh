@@ -29,7 +29,10 @@ PKGS=(
     'gnome-keyring'
     'libreoffice-fresh'
     'neofetch'
+    'reflector'
 )
+
+sudo systemctl enable --now cups.service
 
 for PKG in "${PKGS[@]}"; do
     echo "INSTALLING: ${PKG}"
