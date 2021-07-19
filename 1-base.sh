@@ -28,6 +28,7 @@ PKGS=(
         'libsecret'
         'gnome-keyring'
         'libreoffice-fresh'
+        'neofetch'
 )
 
 for PKG in "${PKGS[@]}"; do
