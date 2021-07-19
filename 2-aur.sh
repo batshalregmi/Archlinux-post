@@ -12,7 +12,10 @@ makepkg -si --noconfirm
 
 
 PKGS=(
-    'alacritty-git'   
+    'alacritty-git'
+    'sassc-git'
+    'mint-themes-git'
+    'plymouth'
 )
 
 

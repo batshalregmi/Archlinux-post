@@ -11,7 +11,7 @@ rm mycron
 
 
 PKGS=(
-    'cinnamon'   
+    'cinnamon'
 )
 
 echo "exec cinnamon-session" >> ~/.xinitrc
