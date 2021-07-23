@@ -33,7 +33,6 @@ PKGS=(
     'pacman-contrib'
 )
 
-sudo systemctl enable --now cups.service
 
 for PKG in "${PKGS[@]}"; do
     echo "INSTALLING: ${PKG}"
