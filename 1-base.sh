@@ -32,6 +32,7 @@ PKGS=(
     'reflector'
     'pacman-contrib'
     'lightdm'
+    'dkms'
 )
 
 for PKG in "${PKGS[@]}"; do
