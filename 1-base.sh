@@ -4,10 +4,10 @@ echo
 
 PKGS=(
     'xorg'
-    'xorg-xinit'
     'git'
     'nvidia'
     'nvidia-utils'
+    'nvidia-settings'
     'base-devel'
     'linux-headers'
     'cups'
@@ -31,8 +31,8 @@ PKGS=(
     'neofetch'
     'reflector'
     'pacman-contrib'
+    'lightdm'
 )
-
 
 for PKG in "${PKGS[@]}"; do
     echo "INSTALLING: ${PKG}"
