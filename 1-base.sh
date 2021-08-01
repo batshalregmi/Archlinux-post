@@ -33,6 +33,7 @@ PKGS=(
     'pacman-contrib'
     'lightdm'
     'dkms'
+    'zsh'
 )
 
 for PKG in "${PKGS[@]}"; do

@@ -1,3 +1,5 @@
 setup lightdm
 
 setup plymouth
+
+setup zsh
