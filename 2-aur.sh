@@ -10,7 +10,6 @@ cd ~/.build/paru
 makepkg -si --noconfirm
 
 PKGS=(
-    'alacritty-git'
     'sassc-git'
     'mint-themes-git'
     'plymouth'

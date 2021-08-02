@@ -34,6 +34,7 @@ PKGS=(
     'lightdm'
     'dkms'
     'zsh'
+    'alacritty'
 )
 
 for PKG in "${PKGS[@]}"; do
